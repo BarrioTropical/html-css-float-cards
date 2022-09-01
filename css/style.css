@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -14,6 +15,22 @@
 
  /*General*/
 
- #container{
+html {
+    font-family: Fredoka;
+    background-color: #FFFFFE;
+}
+
+header h1 {
+    color: #E53270;
+    padding: 30px;
+}
+
+main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#container{
 
   }
