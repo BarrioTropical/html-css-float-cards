@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 .clearfix::after {
@@ -23,14 +22,78 @@ html {
 header h1 {
     color: #E53270;
     padding: 30px;
+    text-align: center;
 }
 
-main{
+h2{
+    color: white;
+    font-size: 18px;
+}
+
+p{
     text-align: center;
+}
+
+a{
+    color: #3995BE;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+main{
     margin: 0 auto;
     max-width: 1000px;
 }
 
-#container{
+ /*Container*/
 
+#container{
+    padding: 20px 50px;
+    margin: 0 auto;
+    width: 80%;
   }
+
+.card{
+    margin-top: 30px;
+    float: left;
+    vertical-align: middle;
+    box-shadow: 1px 1px 18px #888888;
+    background-color: #0F0E17;
+    margin: 30px 5px;
+    width: calc(100% / 3 - 10px);
+}
+
+.col-1{
+    display: table-cell;
+    width: 30%;
+    height: 40px;
+    height: auto;
+    float: left;
+    text-align: left;
+}
+.col-2{
+    display: table-cell;
+    width: 70%;
+    height: contain;
+    padding: 20px 0;
+    float: left;
+    background-color: #0F0E17;
+    padding: 13px;
+}
+
+img{
+    height: 100px;
+}
+
+
+.descripcion{
+    color: white;
+    background-color: #0F0E17;
+    text-align: left;
+}
